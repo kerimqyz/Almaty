@@ -1,0 +1,39 @@
+/* Text colors */
+.color-green {
+  color: green;
+}
+.color-blue {
+  color: #00aeff;
+}
+.color-purple {
+  color: #8a0ada;
+}
+.color-pink {
+  color: #f207e6;
+}
+.color-orange {
+  color: #ffa500;
+}
+.color-dark-blue {
+  color: #0011ff;
+}
+.color-orange-red {
+  color: #ff4500;
+}
+
+/* Background colors */
+.bg-blue {
+  background: #e6fffe;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.bg-orange {
+  background: #f0c97a;
+}
+.bg-green {
+  background: #8dd88d;
+}
+.bg-yellow {
+  background: #fff9dc;
+}

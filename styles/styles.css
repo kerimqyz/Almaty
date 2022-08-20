@@ -1,0 +1,159 @@
+body {
+  background-color: #dcf5da;
+  color: #000000;
+  font-size: 19px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 100px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000ff;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:focus {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+}
+.about-almaty {
+  padding: 30px 45px;
+}
+.almaty-first-letter {
+  font-size: 35px;
+}
+
+p::selection {
+  background-color: yellow;
+  color: red;
+  font-size: 40px;
+}
+
+.block-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.images img,
+.place-image {
+  width: 205px;
+  height: 150px;
+  border-radius: 28px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.place-info,
+.university-info {
+  color: #000000;
+  padding: 15px;
+  margin: 0px;
+}
+
+.university-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 28px;
+}
+
+.university-info {
+  padding: 10px;
+  flex: 1;
+}
+
+.universities {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-wrapper {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 1100px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+}
+
+tbody tr:nth-child(odd) {
+  background: #e6fffe;
+}
+
+tbody tr:nth-child(even),
+thead tr {
+  background: #fdffe5;
+}
+.contact {
+  width: 50%;
+  margin: 0 auto;
+}
+input,
+textarea {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: inherit;
+  box-sizing: border-box;
+  padding: 20px;
+  border: none;
+  border-radius: 28px;
+}
+
+.btn {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  background: #4cf33d;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 28px;
+}
+
+.btn:hover {
+  background: #ebeb0e;
+}
