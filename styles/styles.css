@@ -26,7 +26,15 @@ a:active {
 a:focus {
   font-weight: bold;
 }
-
+.languages {
+  text-align: center;
+}
+.languages a {
+  color: #898989;
+}
+.languages a.active {
+  color: #00aeff;
+}
 .container {
   max-width: 850px;
   margin: auto;
